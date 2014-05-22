@@ -1,4 +1,4 @@
-var DATA_SIZE = 5;
+var DATA_SIZE = 8;
 
 var inputElements = [];
 var outputMean = null;
@@ -28,8 +28,17 @@ var calcMean = function(){
 
     while(index < inputElements.length){
         var input = inputElements[index];
+        var isNumber = function(index){   
+        if(index != isNumber){
+        var alert = function(){
+            "文字を入力していませんか？"
+        }
+        }
+
+        }
         var number = Number(input.value);
         if(!Number.isNaN(number)){
+            //isNaNが数字じゃないときにtrueになる。
             sum = sum + number;
             n = n + 1;
         }
